@@ -7,6 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "debugpy>=1.8.12",
     "matplotlib>=3.10.1",
+    "nltk>=3.9.1",
     "numpy>=2.2.3",
     "pandas>=2.2.3",
     "psutil>=7.0.0",
