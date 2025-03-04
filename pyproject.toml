@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["pandas"]
+dependencies = [
+        "debugpy>=1.8.12",
+        "pandas>=2.2.3",
+        "psutil>=7.0.0",
+        "pywin32>=308",
+        "pyzmq>=26.2.1",
+        "tornado>=6.4.2",
+]
+
+
