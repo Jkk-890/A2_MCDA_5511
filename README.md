@@ -19,7 +19,7 @@ We had originally looked into sampling our data to make it more manageable, howe
 
 For an example of bias, If we used something like stratified sampling, the only way we found to divide up the data would be by looking at the movie genres. This causes issue because some movies fall into multiple genres, so looking at every possible combination would yeild 9033 unique classifications. Since groups must be mutually exclusive, stratified sampling would be of no use to us.
 
-There cold be some merit in clustered sampling, however we decided that our dataset would be small enough that sampling was not needed.
+There could be some merit in clustered sampling, however we decided that our dataset would be small enough that sampling was not needed.
 
 ### Statistics
 We ran some calculations to find some basic statistics of our data set. Here is a graph showing the spread of document length:
@@ -33,3 +33,5 @@ As for vocabulary, we ran 2 tests. One to find the most common words, and one to
 ![top_10_words](top_10.png)
 
 ![top_10_no_stopwords](top_10_no_stopwords.png)
+
+### Topics
