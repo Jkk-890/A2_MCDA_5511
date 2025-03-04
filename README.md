@@ -9,4 +9,4 @@ To get the code to run you must
 4. Run .venv\Scripts\python.exe -m ensurepip --upgrade
 5. Run .venv\Scripts\python.exe -m pip install ipykernel
 
-If you are on Mac you may need to switch every '' to a '/' in the above commands.
+If you are on Mac you may need to switch every '\' to a '/' in the above commands.
