@@ -32,6 +32,9 @@ A Web UI has been built where users can:
 Ask Llama custom movie-related questions.
 Request new Q-A pairs dynamically.
 ![img.png](img.png)
+**output with differnt temperature** 
+![img_1.png](img_1.png)
+
 
 ## 📊 Output
 The generated Q-A pairs are stored in qa_pairs_results_test.csv.
