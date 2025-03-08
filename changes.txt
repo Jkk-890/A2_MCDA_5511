@@ -1,0 +1,10 @@
+How much revenue did 'Avatar' generate? gt :"Avatar" (2009) has grossed over $2.8 billion worldwide, making it the highest-grossing film at the time of its release. to 2.8 billion 
+gr : 2923706026.0 USD to 2.9 billion
+
+which movie came first gt: Titanic" (1997) was released first, while "The Matrix" (1999) was released later. to Titanic
+
+Whatâ€™s the popularity score of 'The Dark Knight'?
+
+What is the revenue of the oldest movie?
+gr:96773200.0 USD to 96.77 million
+gt:-"The Birth of a Nation" (1915) was the highest-grossing film of its time, but adjusted for inflation, it would still generate a modest amount compared to modern blockbusters. to 50–100 million
