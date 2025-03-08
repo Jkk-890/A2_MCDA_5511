@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import random
+from llm import *
 
 # Load dataset
 df = pd.read_csv('top_10000_popular_movies_tmdb.csv', encoding='ISO-8859-1')
@@ -84,3 +85,5 @@ for _ in range(2):  # Generate 15 pairs
 qa_results_df = pd.DataFrame(qa_pairs)
 qa_results_df.to_csv('qa_pairs_results_test.csv', index=False)
 print("✅ Fixed and saved Q-A pairs!")
+
+# print(run_llm_as_judge(80))
