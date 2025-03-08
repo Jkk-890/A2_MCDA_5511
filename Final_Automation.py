@@ -86,4 +86,4 @@ qa_results_df = pd.DataFrame(qa_pairs)
 qa_results_df.to_csv('qa_pairs_results_test.csv', index=False)
 print("✅ Fixed and saved Q-A pairs!")
 
-# print(run_llm_as_judge(80))
+print(run_llm_as_judge(60))
