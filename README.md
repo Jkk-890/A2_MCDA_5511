@@ -9,6 +9,39 @@ To get the code to run you must
 When you need to add a new package to the venv you can write "uv add <package_name>", 
 this will automatically update the "pyproject.toml" file to include the dependency.
 
+# Movie Q-A Generator with Llama  
+
+This project generates **question-answer (Q-A) pairs** for movies using **semantic search** and **large language models (LLMs)**.  
+
+## 🚀 Features  
+- Uses **Sentence Transformers** to find similar movies.  
+- Generates questions using **predefined templates**.  
+- Calls **Llama (via Ollama API)** to generate answers.  
+- Saves generated Q-A pairs to a CSV file.  
+- Includes a **Web UI** for interacting with Llama, allowing users to ask questions and generate new Q-A pairs.  
+ 
+
+## 🔧 Setup  
+1. Install dependencies:  
+   ```sh
+   pip install pandas ollama sentence-transformers scikit-learn numpy
+
+## 🖥️ Web UI
+A Web UI has been built where users can:
+
+Ask Llama custom movie-related questions.
+Request new Q-A pairs dynamically.
+![img.png](img.png)
+
+## 📊 Output
+The generated Q-A pairs are stored in qa_pairs_results_test.csv.
+Each row contains:
+Generated question
+Most similar movies found
+Cosine similarity scores
+Generated response from Llama
+Ground truth (actual movie overview
+
 # README - Part 6: Automating RAG Evaluation Using LLM as a Judge
 
 ## Overview
